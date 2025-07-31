@@ -334,7 +334,6 @@ Create a `.env` file for environment-specific configurations:
 ```env
 VITE_API_BASE_URL=https://api.artic.edu/api/v1
 VITE_ITEMS_PER_PAGE=12
-VITE_DEFAULT_SELECTION=4
 ```
 
 ### **Customization Options**
@@ -342,7 +341,6 @@ VITE_DEFAULT_SELECTION=4
 **Pagination Settings:**
 ```typescript
 const numberOfRows = 12;  // Items per page
-const totalRecords = 120; // Total available items
 ```
 
 **Theme Customization:**
